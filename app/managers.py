@@ -19,7 +19,7 @@ class ActorManager:
 
     def all(self) -> list:
         cursor = self.connection.execute(
-            f"SELECT *"
+            f"SELECT * "
             f"FROM {self.table_name}"
         )
 
